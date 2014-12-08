@@ -5,7 +5,7 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	int a, b;
-	cout << "Ââåäèòå äâà ÷èñëà:" << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ñ‡Ð¸ÑÐ»Ð°:" << endl;
 	cin >> a;
 	cin >> b;
 	do
@@ -15,6 +15,6 @@ int main()
 		else
 			b = b % a;
 	} while ((a != 0) && (b != 0));
-	cout << "Íàèáîëüøèé îáùèé äåëèòåëü: " << a + b << endl;
+	cout << "ÐÐ°Ð¸Ð±Ð¾Ð»ÑŒÑˆÐ¸Ð¹ Ð¾Ð±Ñ‰Ð¸Ð¹ Ð´ÐµÐ»Ð¸Ñ‚ÐµÐ»ÑŒ: " << a + b << endl;
 	system("pause");
 }
